@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <van-field
+      value="{{ originUrl }}"
+      autosize
+      type="textarea"
+      placeholder="请输入留言"
+    />
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
